@@ -14,15 +14,20 @@ This is a plugin for optimized gamepad support on Mario Multiverse.
 
 ## ** Notes **
 
+- An included mmio_config.json file allows you to force DInput even when XInput is supported. It also lets you set your own analog deadzone.
+
+
 - When the game updates, the hash of fmodex.dll will no longer match, so Neo's updater will replace it. Copy the fmodex.dll from the release again to continue use.
 
 - Neo's updated input will eventually replace this.
 
 - If your controller supports XInput, mmio will operate in XInput Mode:
 	-> More efficient input processing.
-	-> Support for additional shortcuts (L/R) PageDown/PageUp, Item+Y (Screen toggle), Item+A (Skip)
+	
+	-> Support for additional shortcuts item+Left item+Right PageDown/PageUp, Item+Y (Screen toggle), Item+A (Skip)
+	
 	-> Supports Analog/Digital at the same time
-	-> Currently Lacks Configurable buttons (WIP)
+	
 	
 - If your controller does not support XInput, mmio will operate in its own DirectInput Mode:
 	-> More efficient input processing.
