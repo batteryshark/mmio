@@ -3,6 +3,11 @@
 This is a plugin for optimized gamepad support on Mario Multiverse.
 
 ## Changelog
+20220124_1:
+
+	-> Code cleanup
+	-> Better support for all controllers
+	
 20220124_0:
 
 	-> Fixed issue with XInput Analog Flipping Out
