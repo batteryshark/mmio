@@ -4,17 +4,20 @@ This is a plugin for optimized gamepad support on Mario Multiverse.
 
 ## Changelog
 20220124_0:
+
 	-> Fixed issue with XInput Analog Flipping Out
 	
 	-> Fixed bug where Analog deadzone settings were not respected by DInput.
 
 20220123_0:
+
 	-> Added option to allow/ignore background input.
 	
 	-> Added auto generation of mmio_config.json if it doesn't exist.
 	
 
 20220122_1:
+
 	-> Massive refactor of input loops (should be even more responsive)
 	
 	-> Added configuration file (mmio_config.json)
