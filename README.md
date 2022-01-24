@@ -3,6 +3,10 @@
 This is a plugin for optimized gamepad support on Mario Multiverse.
 
 ## Changelog
+20220124_2:
+
+	-> Bugfix to support hotpluggable controllers
+
 20220124_1:
 
 	-> Code cleanup
