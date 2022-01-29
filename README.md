@@ -3,6 +3,12 @@
 This is a plugin for optimized gamepad support on Mario Multiverse.
 
 ## Changelog
+20220128_0:
+
+	-> Optimized focus check for background input.
+	
+	-> Changed deadzone config location to actual MM config to use new deadzone setting!
+	
 20220124_2:
 
 	-> Bugfix to support hotpluggable controllers
